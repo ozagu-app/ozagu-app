@@ -1,0 +1,40 @@
+{
+  "license": "0BSD",
+  "main": "index.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "expo": "~54.0.37",
+    "expo-status-bar": "~3.0.9",
+    "react": "19.1.0",
+    "react-native": "0.81.5",
+    "expo-av": "~16.0.8",
+    "expo-font": "~14.0.12",
+    "expo-video": "~3.0.16",
+    "expo-crypto": "~15.0.9",
+    "expo-contacts": "~15.0.11",
+    "react-native-svg": "15.12.1",
+    "expo-image-picker": "~17.0.11",
+    "expo-secure-store": "~15.0.8",
+    "@expo/vector-icons": "^15.0.3",
+    "expo-media-library": "~18.2.1",
+    "expo-notifications": "~0.32.17",
+    "expo-linear-gradient": "~15.0.8",
+    "@supabase/supabase-js": "^2.45.0",
+    "expo-build-properties": "~1.0.0",
+    "expo-image-manipulator": "~14.0.8",
+    "react-native-incall-manager": "*",
+    "@stream-io/react-native-webrtc": "~124.0.6",
+    "react-native-get-random-values": "~1.11.0",
+    "@react-native-community/netinfo": "11.4.1",
+    "@fungible-systems/webcrypto-expo": "1.1.8",
+    "@stream-io/video-react-native-sdk": "^1.30.5",
+    "@config-plugins/react-native-webrtc": "~13.0.0",
+    "@react-native-async-storage/async-storage": "2.2.0"
+  },
+  "private": true
+}

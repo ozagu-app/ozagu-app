@@ -1,0 +1,47 @@
+{
+  "expo": {
+    "name": "OZAGU",
+    "slug": "ozagu-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "backgroundColor": "#080808",
+    "splash": {
+      "backgroundColor": "#080808"
+    },
+    "android": {
+      "package": "com.ozagu.app",
+      "permissions": [
+        "android.permission.CAMERA",
+        "android.permission.RECORD_AUDIO",
+        "android.permission.MODIFY_AUDIO_SETTINGS",
+        "android.permission.INTERNET"
+      ]
+    },
+    "ios": {
+      "bundleIdentifier": "com.ozagu.app",
+      "infoPlist": {
+        "NSCameraUsageDescription": "OZAGU uses your camera for video calls.",
+        "NSMicrophoneUsageDescription": "OZAGU uses your microphone for voice and video calls."
+      }
+    },
+    "plugins": [
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "minSdkVersion": 24
+          }
+        }
+      ],
+      [
+        "@config-plugins/react-native-webrtc",
+        {
+          "cameraPermission": "OZAGU uses your camera for video calls.",
+          "microphonePermission": "OZAGU uses your microphone for voice and video calls."
+        }
+      ],
+      "expo-video"
+    ]
+  }
+}
