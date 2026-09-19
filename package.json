@@ -28,7 +28,7 @@
     "expo-build-properties": "~1.0.0",
     "expo-image-manipulator": "~14.0.8",
     "react-native-incall-manager": "*",
-    "@stream-io/react-native-webrtc": "~124.0.6",
+    "@stream-io/react-native-webrtc": "^145.3.1",
     "react-native-get-random-values": "~1.11.0",
     "@react-native-community/netinfo": "11.4.1",
     "@fungible-systems/webcrypto-expo": "1.1.8",
